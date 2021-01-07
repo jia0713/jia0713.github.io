@@ -2,7 +2,7 @@
 layout: article
 title: EM算法
 mathjax: true
-tags: TeXt
+tags: 机器学习
 ---
 
 # EM算法
@@ -62,7 +62,7 @@ $$
 
 初始化参数$\theta$
 
-(1) E-step: 对每一个样本$i$, 计算$Q_{i}(z^{(i)})=p(z^{(i)}|x^{(i)};\theta)$, 
+(1) E-step: 对每一个样本$i$, 计算 $Q_{i}(z^{(i)}) = p(z^{i}|x^{i};\theta)$ 
 
 (2) M-step:计算使得 $\sum_{i}\sum_{z^{(i)}}Q_{i}(z^{(i)})\log \frac{p(x^{(i)},z^{(i)};\theta)}{Q_{i}(z^{(i)})}$ 取得最大值的参数$\theta$,并更新参数
 
