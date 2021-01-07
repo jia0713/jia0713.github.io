@@ -10,12 +10,12 @@
 *.log.*
 
 /.vscode/
+vendor/*
 
 node_modules/
 .sass-cache/
 
 /.bundle/
-/vendor/bundle
 *.gem
 
 yarn.lock
