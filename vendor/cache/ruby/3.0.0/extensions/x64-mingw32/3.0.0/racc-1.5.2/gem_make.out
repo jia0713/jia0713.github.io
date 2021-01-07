@@ -1,0 +1,20 @@
+current directory: D:/Projects/jia0713.github.io/vendor/cache/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+D:/software/Ruby30-x64/bin/ruby.exe -I D:/software/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20210107-23208-70amhs.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: D:/Projects/jia0713.github.io/vendor/cache/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+bash.exe: warning: could not find /tmp, please create!
+
+current directory: D:/Projects/jia0713.github.io/vendor/cache/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+generating cparse-x64-mingw32.def
+bash.exe: warning: could not find /tmp, please create!
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: D:/Projects/jia0713.github.io/vendor/cache/ruby/3.0.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+bash.exe: warning: could not find /tmp, please create!
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20210107-23208-ak0tid/racc

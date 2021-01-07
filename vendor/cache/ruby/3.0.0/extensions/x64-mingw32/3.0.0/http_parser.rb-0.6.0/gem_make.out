@@ -1,0 +1,20 @@
+current directory: D:/Projects/jia0713.github.io/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+D:/software/Ruby30-x64/bin/ruby.exe -I D:/software/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20210107-23208-wfg345.rb extconf.rb
+creating Makefile
+
+current directory: D:/Projects/jia0713.github.io/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+bash.exe: warning: could not find /tmp, please create!
+
+current directory: D:/Projects/jia0713.github.io/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR="
+generating ruby_http_parser-x64-mingw32.def
+bash.exe: warning: could not find /tmp, please create!
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: D:/Projects/jia0713.github.io/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+bash.exe: warning: could not find /tmp, please create!
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20210107-23208-o4zufk
